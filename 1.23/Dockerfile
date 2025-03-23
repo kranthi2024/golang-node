@@ -1,4 +1,4 @@
-FROM golang:1.22
+FROM golang:1.23
 RUN apt-get update
 RUN apt-get install -y git python3 jq curl
 # Install NVM and Node.js
